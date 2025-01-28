@@ -1,0 +1,61 @@
+#meu-trabalho{
+  background-color:var(--color-gray-200);
+  height: 917px ;
+}
+#cards{
+  padding: 40px 24px 144px 24px;
+}
+.cards-grid{
+   
+   margin-inline: auto;
+   padding-top: 120px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 24px;
+figure{
+   text-align: left;
+   background-color: var(--color-gray-300);
+   padding: 12px 12px 17px 12px;
+   border-radius: 12px;
+   max-width: 330px;
+   border: 1.5px solid var(--color-gray-300);
+  &:hover {
+   border: 1.5px solid var(--color-gray-400);
+   cursor: pointer;
+  }
+  img{
+    max-width: 304.5px;
+    border-radius: 8px;
+  }
+  h4{
+    padding-block: 24px 8px;
+  }
+  p{
+    color: var(--color-gray-100);
+  }
+
+}
+}
+
+#serviços{
+  background-color: var(--color-gray-100);
+  padding: 88px 24px 120px 24px;
+}  
+
+#serviço{
+  margin-inline: auto;
+  padding-top: 56px;
+  max-width: 888px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.cadrs-2{
+  text-align: left;
+  width: 280px;
+  border: 2px solid var(--color-gray-200);
+  border-radius: 12px;
+  padding: 20px;
+
+}
